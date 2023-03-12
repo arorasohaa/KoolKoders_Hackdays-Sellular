@@ -1,0 +1,110 @@
+@keyframes slide-in-top {
+    0% {
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .image-5-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1580px;
+    height: 832px;
+    object-fit: cover;
+    mix-blend-mode: overlay;
+  }
+  .being-present,
+  .future {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+  }
+  .future {
+    top: 318px;
+    left: 475px;
+    line-height: 135.89%;
+    width: 380px;
+    height: 81px;
+  }
+  .future.animate {
+    animation: 2s ease 0s 1 normal forwards slide-in-top;
+  }
+  .being-present {
+    margin: 0;
+    top: 420px;
+    left: 511px;
+    font-size: 47px;
+    font-weight: 400;
+    font-family: inherit;
+    width: 358px;
+    height: 74px;
+  }
+  .being-present.animate {
+    animation: 2s ease 0s 1 normal forwards slide-in-bottom;
+  }
+  .allstars-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1616px;
+    height: 1482px;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .allstars-icon.animate {
+    animation: 30s linear 0s 1 normal forwards rotate-center;
+  }
+  .star-icon {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 1580px;
+    height: 715px;
+    opacity: 0.8;
+  }
+  .main {
+    position: relative;
+    border-radius: var(--br-xl);
+    background: linear-gradient(
+        136.07deg,
+        rgba(96, 0, 254, 0.2),
+        rgba(38, 22, 54, 0.2)
+      ),
+      linear-gradient(
+        247.45deg,
+        rgba(0, 76, 132, 0.75),
+        rgba(1, 4, 21, 0.48) 49.79%,
+        rgba(124, 67, 0, 0.75)
+      );
+    width: 100%;
+    height: 832px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 100px;
+    color: var(--color-white);
+    font-family: var(--font-marcellus-sc);
+  }
+  
