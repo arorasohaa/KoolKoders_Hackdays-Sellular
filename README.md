@@ -6,25 +6,35 @@ We are providing a unique app with niche storyline setting providing a new way o
 # Functionality
 Our website is user friendly, responsive and consistent.
 -User accounts to keep track of progress and keep backups.
+
 -Live chat features supporting voice,video and stickers.
+
 -Moderation to provide appropriate content.
+
 -Secure,private chats and locations.
+
 -Notifications system for alerts.
 
 # USP
 -Collaborative Storyline: Interactive and engaging.
+
 -Personalization: Customization of Virtual Avatars tailored to user interests.
+
 -Inbuilt micro games: Quick gaming sessions keeping conversations fresh.
+
 -AI generated response suggestions: For the occasional dry texters.
+
 -Incredible Visuals and Achievements unlocking new features.
 
 # Tech Stack
 -Frontend:HTML,CSS,JavaScript,Vanilla,React
+
 -Backend:saved on local port.
 
 # Links
 - https://www.figma.com/file/icWBJivZ6rMIHO8hhdI74g/Hackdays?node-id=0%3A1&t=OK9uKQoWL2bSU6wJ-1
-- https://www.canva.com/design/DAFc4rNER-E/QWa66dVxfj9qG4EHbRdXXQ/edit?utm_content=DAFc4rNER-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
 # Further work
 We plan on adding virtual hangout places with multiple places to explore and interact with others. Users can participate in fun group activities or virtual events
   
