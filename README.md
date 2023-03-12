@@ -1,3 +1,6 @@
+# Team: KoolKoders 
+## Future-Being Present 
+Save our planet and learn about the importance of climate change as you unwind and connect with friends and family via our Web ChatApp!!!
 # Innovative Communication Application
 A web-based story driven, chat application which would allow users to connect with other players and collaborate on a shared storyline. By working together to achieve common goals, users can create their own narratives and shape the direction of the story in exciting and unexpected ways.
 
@@ -65,7 +68,7 @@ We plan on adding virtual hangout places with multiple places to explore and int
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
  # Authors 
- Prutha Annadate 
- Soha Arora 
- Srishti Bachchan 
+ Prutha Annadate ,
+ Soha Arora ,
+ Srishti Bachchan .
   
