@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Marcellus SC:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <a href="index.html"><img class="image-5-icon" alt="" src="public\image 5.png" /></a><label
+        class="future"
+        title="future"
+        data-animate-on-scroll
+        >FUTURE</label
+      >
+      <h2 class="being-present" tagline="present" data-animate-on-scroll>
+        being present.
+      </h2>
+      <a href="index.html">
+        <img
+        class="allstars-icon"
+        alt=""
+        src="public\allstars.png"
+        data-animate-on-scroll
+      />  
+      </a>
+      <a href="index.html"><img class="star-icon" alt="" src="public\main.png" /></a>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
