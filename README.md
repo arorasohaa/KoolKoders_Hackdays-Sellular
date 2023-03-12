@@ -43,8 +43,16 @@ Our website is user friendly, responsive and consistent.
 -Backend:saved on local port. 
 
 # Links
+## Working model 
+- https://serene-daffodil-f67ea8.netlify.app 
+- 
+# How to Run 
+1. Click on the tagline to lead to the page that allows you to choose your avatar. 
+2. Click on the Jupiter to load your current story set after selecting your avatar! 
+3. In Stage 1 clicking on the right astronaut will lead to next stage; clicking on jupiter will lead to the previous page 
+4. In stage 1.1 clicking on the tree will lead to Stage 1; clicking on right astronaut leads to the Chatting App!! 
 
-- https://www.figma.com/file/icWBJivZ6rMIHO8hhdI74g/Hackdays?node-id=0%3A1&t=OK9uKQoWL2bSU6wJ-1
+-  https://www.figma.com/file/icWBJivZ6rMIHO8hhdI74g/Hackdays?node-id=0%3A1&t=OK9uKQoWL2bSU6wJ-1
 
 # Further work
 
