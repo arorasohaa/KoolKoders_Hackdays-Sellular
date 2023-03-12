@@ -1,5 +1,9 @@
 # KoolKoders_Hackdays-Sellular
 Team: KoolKoders 
+## Team Members: 
+## Prutha Annadate 
+## Soha Arora 
+## Srishti Bachchan 
 
 Hackdays Sellular Connect Hackathon
 # Innovative Communication Application
@@ -36,7 +40,7 @@ Our website is user friendly, responsive and consistent.
 
 -Frontend:HTML,CSS,Javascript,vanilla and React
 
--Backend:
+-Backend:saved on local port. 
 
 # Links
 
@@ -45,3 +49,4 @@ Our website is user friendly, responsive and consistent.
 # Further work
 
 We plan on adding virtual hangout places with multiple places to explore and interact with others. Users can participate in fun group activities or virtual events.
+
