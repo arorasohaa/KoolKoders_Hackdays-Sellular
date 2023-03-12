@@ -34,18 +34,13 @@ Our website is user friendly, responsive and consistent.
 
 # Tech Stack
 
--Frontend:
+-Frontend:HTML,CSS,Javascript,vanilla and React
 
 -Backend:
-
--Database:
-
--APIs:
 
 # Links
 
 - https://www.figma.com/file/icWBJivZ6rMIHO8hhdI74g/Hackdays?node-id=0%3A1&t=OK9uKQoWL2bSU6wJ-1
-- https://www.canva.com/design/DAFc4rNER-E/QWa66dVxfj9qG4EHbRdXXQ/edit?utm_content=DAFc4rNER-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # Further work
 
