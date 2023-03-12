@@ -20,7 +20,7 @@ Our website is user friendly, responsive and consistent.
 
 # Tech Stack
 -Frontend:HTML,CSS,JavaScript,Vanilla,React
--Backend:
+-Backend:saved on local port.
 
 # Links
 - https://www.figma.com/file/icWBJivZ6rMIHO8hhdI74g/Hackdays?node-id=0%3A1&t=OK9uKQoWL2bSU6wJ-1
